@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portefolios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> This is my portefolios</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About me</h2>
+            <img src="./images/ma1.jpg" alt="Marc-Donald OMEUS" class="profile-photo">
+            <p>
+                Je suis Marc-Donald OMEUS, un ingenieur passionne par le monde de la programmation et developpement web.
+                J'aime creer des sites web interactifs et des applications innovantes qui ameliore l'experience des
+                utilisateurs.
+            </p>
+            <h3>
+                Passionne par la technologie
+            </h3>
+            <p>
+                Depuis mon jeune age, je suis fascine par la technologie et son potentiel pour changer le monde. C'est
+                cette passion qui ma conduit a poursuivre une carriere dans le domaine du developpement web.
+            </p>
+            <h3>
+                Mon parcours
+            </h3>
+            <p>J'ai obtenu mon diplome en informatique a l'Ecole Superieure Infotronique d'Haiti. Au cours de mes
+                etudes, j'ai acquis des competences solides en programmation en conception web et en developpement de
+                logiciels.
+            </p>
+            <h3>
+                Competences Techniques
+            </h3>
+            <ul>
+                <li>Langage de programmation : HTML, CSS, JavaScript, PHP, Java, Python, C#</li>
+                <li>Framework : ASP.NET CORE, React, Node.js, Express</li>
+                <li>Outils : Git, WebPack, Visual Studio Code</li>
+                <li>Base de Donnees : MySql, SQL Server</li>
+
+            </ul>
+            <h3>Experiences Professionnelles</h3>
+            <p>
+                Pendant mes etudes, j'ai travaille sur des projets de developpement front-end et back-end ce qui m'a
+                permis d'acquerir une experience pratique dans le domaine du developpement web.
+            </p>
+            <h3>Objectifs professionnelles</h3>
+            <p>
+                Mon objectif est de continuer a me perfectionner en tant que developpeur et de contribuer a des projets
+                stimulants qui resolvent des problemes reels. Je souhaite egalement elagir mes competences en matiere
+                developpement mobile et d'intelligence artifficielle.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>my projects</h2>
+            <div class="project">
+                <h3>
+                    Projet : Site web E-commerce
+                </h3>
+                <p>
+                    Un site web e-commerce qui permet aux utilisateurs de parcourir et d'achter une varietes de
+                    produits. le site integre un panier d'achat, une fonction de recherche et une gestion des
+                    utilisateurs.
+                </p>
+                <p>
+                    Technologies utilisees : HTML, CSS, JavaScript, Node.js, Express, SQL Server.
+                </p>
+                <a href="#" target="_blank"> Voir le projet</a>
+            </div>
+            <div class="project">
+                <h3>Projet : Application de gestion de Taches</h3>
+                <p>
+                    Une application web qui permet aux utilisateurs de creer, mettre a jour et supprimer des Taches.
+                    L'application offre egalement une vue d'ensemble des taches a accomplir.
+                </p>
+                <p> Technologies utilisees : HTML, CSS, JavaScript, React, Firebase</p>
+                <a href="#" target="_blank">Voir le projet</a>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>My skills</h2>
+            <h3>Langages de programmation</h3>
+            <ul>
+                <li>HTML - Avance</li>
+                <li>CSS - Avance</li>
+                <li>JavaScript - Intermediare</li>
+                <li>Python - Debutant</li>
+                <li>Java - Intermediare</li>
+                <li>PHP - Intermediare</li>
+                <li>C# - Intermediare</li>
+            </ul>
+            <h3>Frameworks et bibliotheques</h3>
+            <ul>
+                <li>React.js - Debutant</li>
+                <li>Node.js - Debutant</li>
+                <li>Express.js - Debutant</li>
+                <li>Vue.js - Debutant</li>
+                <li>ASP.NET CORE - Intermediare</li>
+            </ul>
+            <h3>Outils et methodologies</h3>
+            <ul>
+                <li>Git - Avance</li>
+                <li>WebPack - Intermediare</li>
+                <li>Babel - Intermediare</li>
+                <li>Responsive Web Design - Avance</li>
+
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact me</h2>
+            <p>Vous pouvez me contacter par e-mail ou via les reseaux sociaux :</p>
+
+            <div class="contact-details">
+                <p><strong>E-mail :</strong>marcdonaldtech40@gmail.com</p>
+                <p>
+                    <strong>Reseaux sociaux :</strong>
+                    <a href="#" target="_blank"> LinkedIn</a>
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </p>
+            </div>
+            <h3>Envoyez-moi un message</h3>
+            <form action="message.php" method="post">
+                <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
+           
+                <label for="message">Message :</label>
+                <textarea name="" id="" cols="20" rows="5" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+            
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>contact-me on : <a href="marcdonaldtech40@gmail.com">marcdonaldtech40@gmail.com</a> </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
