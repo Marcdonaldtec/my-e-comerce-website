@@ -1,0 +1,61 @@
+# Boutique en Ligne ThalieFashionStore
+
+Bienvenue dans la boutique en ligne ThalieFashionStore ! Notre plateforme offre une expérience de shopping en ligne exceptionnelle pour nos clients. Ce fichier README contient des informations essentielles pour comprendre et utiliser notre site web de commerce électronique.
+
+## Description
+
+La Boutique en Ligne ThalieFashionStore est une plateforme de commerce électronique où les utilisateurs peuvent parcourir et acheter une large gamme de produits. Notre objectif est de fournir une expérience utilisateur fluide et sécurisée, ainsi qu'une sélection de produits de haute qualité.
+
+## Fonctionnalités
+
+- Parcourir les catégories de produits.
+- Rechercher des produits spécifiques.
+- Ajouter des produits au panier d'achat.
+- Passer commande et effectuer le paiement en ligne.
+- Suivre l'état de la commande.
+- Gérer le profil utilisateur.
+
+## Captures d'écran
+
+![Accueil](screenshots/home.png)
+![Produits](screenshots/products.png)
+![Panier](screenshots/cart.png)
+
+## Installation
+
+Pour exécuter ce projet localement, suivez ces étapes :
+
+1. Clonez ce référentiel sur votre ordinateur.
+
+2. Naviguez dans le répertoire du projet.
+
+3. Installez les dépendances.
+
+4. Configurez les variables d'environnement nécessaires, telles que les clés d'API de paiement.
+
+5. Démarrez le serveur.
+
+
+6. Ouvrez votre navigateur et accédez à l'URL `http://localhost:3000` pour utiliser la boutique en ligne.
+
+## Contributeurs
+
+- Nicolas Livenson
+- Hector Wendel
+
+Nous sommes ouverts aux contributions et aux suggestions pour améliorer notre boutique en ligne. N'hésitez pas à soumettre des pull requests ou à signaler des problèmes.
+
+## Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## Remerciements
+
+Nous remercions nos clients et notre équipe de développement pour leur soutien et leur travail acharné pour rendre cette boutique en ligne possible.
+
+---
+
+Visitez notre site web [Boutique en Ligne Awesome](https://www.ThalieFashionStore.com) pour explorer notre gamme de produits !
+
+
+
